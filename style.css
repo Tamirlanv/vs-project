@@ -1,0 +1,112 @@
+/* Global settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #121517;
+    --font-color: #fff;
+}
+
+body{
+    color: var(--font-color);
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    background-color: var(--main-color);
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+/* header settings */
+header{
+    padding-top: 45px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+
+.navigation-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+    list-style-type: none;
+}
+
+.item{
+    text-decoration: none;
+    font-weight: 200;
+}
+
+/* main settings secton1 */
+
+.firstSection{
+    position: relative;
+    padding-top: 150px;
+}
+
+.welcomeText{
+    font-size: 60px;
+}
+
+.welcomeParagraph{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.gradient-text{
+    display: inline-block;
+    background: linear-gradient(to left, #237249, #35C66B);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.welcomebtn1{
+    margin-top: 40px;
+    padding: 20px 60px;
+    background: linear-gradient(to left, #237249, #35C66B);
+    border-radius: 82px;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--font-color);
+}
+
+.welcomebtn2{
+    margin-top: 40px;
+    padding: 20px 40px;
+    border: 1px solid var(--font-color);
+    border-radius: 82px;
+    background-color: var(--main-color);
+    color: var(--font-color);
+}
+
+.main-image{
+    top: 20px;
+    right: 0;
+    position: absolute;
+}
+.memologia{
+    height: 500px;
+}
+
+.image-main-wrapper{
+    margin-top: 60px;
+}
+
+.video{
+    margin-top: 40px;
+}
+
+.image-section-2{
+    margin: 40px 0 0 20px;
+}
